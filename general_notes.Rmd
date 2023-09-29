@@ -13,8 +13,3 @@ output: html_document
 ## Links to lessons
 
 * Main link https://syncrosim.github.io/rsyncrosim/
-
-```{r}
-
-```
-
