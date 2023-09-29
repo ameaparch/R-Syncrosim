@@ -1,0 +1,27 @@
+---
+title: "Introduction Vignette"
+author: "Randy Swaty"
+date: "2023-09-29"
+output: html_document
+---
+
+
+
+## Load packages
+
+```{r}
+library(rsyncrosim)
+```
+
+## Connect R to SyncroSim, check version, check and install rsyncrosim packages
+
+```{r}
+  # Create a Session based SyncroSim install folder
+mySession <- session()                              # Using default install folder (Windows only)
+mySession                                           # Displays the Session object
+
+version(mySession)
+
+package()
+```
+
